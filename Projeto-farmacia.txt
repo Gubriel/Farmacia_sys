@@ -1,0 +1,79 @@
+Desenvolver um sistema on-line que deverá ter pelo menos
+dois ambientes, um administrador protegido por senha, e uma ambiente público,
+cada sistema deve ter pelo menos 7 tabelas com as informações, sendo que para
+uma ou mais delas deve ser possível realizar o upload de imagem e arquivos,
+sendo estes salvos em uma pasta no servidor, no caso do upload de imagens deve
+criar miniaturas das mesmas para que o tempo de carregamento seja melhor
+otimizado.
+
+
+
+Deve permitir a geração de ao menos 3 relatórios em PDF de
+informações cadastradas no sistema.
+
+
+
+As tabelas devem conter as ligações de chaves estrangeiras.
+
+
+
+Para cada tabela deve permitir, listar, criar, editar,
+excluir e realizar buscas nos registros Cadastrados.
+
+
+
+No módulo público deve conter uma espécie de landpage com páginas
+de sobre, utilização do sistema e um formulário de contato, que enviará por
+e-mail e salvará no banco de dados.
+
+----------------------------------------------------------------------------
+
+Projeto de farmacia:
+
+Administração:
+
+Cadastro de produtos;
+Cadastro de Promoções;
+	(tentar automatizado);
+Ver orçamentos (gerar relatórios de média de orçamentos de compras);
+Interpretação CR da receita (fotos da receita);
+
+LandPage:
+
+Amostragem de Produtos;
+Ao fazer um pedido o cliente pode optar por fazer o pedido pela receita,
+ou comprar os produtos da landpage (precisa-se de uma espécie de carrinho para adicionar mais produtos além dos da recieta);
+Criar sugestões de usuarios na pagina de compras;
+Formulario de contato; "Fale conosco"
+	Duvidas;
+	Envia por email solicitações;
+
+	
+Tabelas:
+
+Estoque;
+Clientes;
+Prescricoes;
+Produtos;
+Pedidos;
+Funcionarios;
+Fornecedores;
+
+---------------------------------------------------------------------
+
+Professor:
+
+Farmácia: 
+Deve
+permitir ao cliente, realizar um cadastro para que ele possa realizar
+o pedido dos medicamentos de uma receita, onde esse deve informar os
+produtos conforme estão na receita, e enviar uma foto da receita
+para que o farmacêutico responsável da farmácia ao acessar um
+painel administrador, possa estar complementando este pedido,
+informando a quantia necessária para atender a receita, e junto com
+isso informando a posologia correta para cada medicamento solicitado,
+estes medicamentos já estarão previamente cadastrados no sistema, e
+o cadastro do cliente que foi iniciado pelo mesmo pode ser
+complementado pelo administrador. A receita quando for finalizada
+pelo administrador, deve ser enviada para o e-mail do cliente,
+informando o final do pedido para o cliente com o seu detalhamento.
